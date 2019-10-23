@@ -55,8 +55,8 @@ My goal is just to show that neural networks work without price movement analysi
 
 So, network gets only order book volumes as input and generates floating point value as output. **Really, there are no prices in input data!**
 
-- Is it possible to predict price movements without price analysis? :tw-1f62e: 
-- Yes! :tw-1f60e: 
+- Is it possible to predict price movements without price analysis?
+- Yes!
 
 The code below will create three-layered feed-forward sequential network. I use [Keras framework](https://keras.io/).
 
@@ -102,10 +102,10 @@ import TurexNetwork
 import Generators 
 from OrderBookContainer import *
 
-obc = OrderBookContainer('E:\\XBTUSD_20191023.txt')
+obc = OrderBookContainer('path_to_file')
 
 nwk = TurexNetwork.TurexNetwork()
-nwk.load_model('E:\\model.h5')
+nwk.load_model('path_to_file.h5')
 threshold = 0.0
 trades = obc.backtest_n(Generators.sample_neural_generator, nwk, threshold)
 #trades = obc.backtest(Generators.sample_generator, threshold)
