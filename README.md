@@ -99,15 +99,16 @@ The mean of *threshold*  is described above.
 
 ```python
 import TurexNetwork
-import Generators
+import Generators 
 from OrderBookContainer import *
 
-obc = OrderBookContainer('path_to_orderbook_file.txt')
+obc = OrderBookContainer('E:\\XBTUSD_20191023.txt')
 
 nwk = TurexNetwork.TurexNetwork()
-nwk.load_model('path_to_model_file.h5')
+nwk.load_model('E:\\model.h5')
 threshold = 0.0
 trades = obc.backtest_n(Generators.sample_neural_generator, nwk, threshold)
-#trades = obc.backtest_n(Generators.sample_generator, threshold)
-print(trades) 
+#trades = obc.backtest(Generators.sample_generator, threshold)
+for trade in trades:
+    print(trade)
 ```
