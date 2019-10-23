@@ -1,4 +1,4 @@
-## With this sample you`ll be able to:
+## With this sample framework you`ll be able to:
 * get order book (Level II, market depth) from [BitMEX](https://www.bitmex.com) and save as json structures in day-lenght files
 * generate trading signals [BUY, SELL, WAIT] on orderbooks (not only BitMEX\`s) with or without help of sequential neural network
 * create training dataset for neural network from presaved orderbooks
@@ -14,7 +14,7 @@
 
 ## Installation
 ```
-	pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Use cases
