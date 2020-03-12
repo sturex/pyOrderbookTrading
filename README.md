@@ -5,6 +5,10 @@
 * create, train, save and restore neural network with input data of orderbooks (not only BitMEX`s)
 * perform backtest trading with output of trades
 
+## Additional external info
+* The closely related ideas are also exposed in "One Way to Trading over Orderbook Analisys" article on Medium
+* Read the article for better understanding
+
 ### Limitations
 * [BitMEX](https://www.bitmex.com) only and [XBTUSD](https://www.bitmex.com/app/contract/XBTUSD) data fetching only are provided. The source connection code taken from [Python Adapter for BitMEX Realtime Data](https://github.com/BitMEX/api-connectors/tree/master/official-ws/python)
 * Code works correctly only for 100-depth order books.
