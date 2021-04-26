@@ -6,7 +6,7 @@
 * perform backtest trading with output of trades
 
 ## Additional external info
-The closely related ideas are also exposed in "One Way to Trading over Orderbook Analisys" article on Medium.
+The closely related ideas are also exposed in "One Way to Trading over Orderbook Analisys" [article on Medium](https://medium.com/@sturex/one-way-to-trading-over-orderbook-analisys-689475ae839f).
 Read the article for better understanding.
 
 ### Limitations
