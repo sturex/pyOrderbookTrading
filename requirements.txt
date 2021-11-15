@@ -13,7 +13,7 @@ mkl-fft==1.0.14
 mkl-random==1.0.2
 mkl-service==2.0.2
 numpy==1.16.4
-pip==19.2.2
+pip==21.1
 protobuf==3.8.0
 pydot==1.4.1
 pyparsing==2.4.2
