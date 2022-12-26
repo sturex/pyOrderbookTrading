@@ -28,6 +28,6 @@ tensorflow-estimator==1.14.0
 termcolor==1.1.0
 websocket-client==0.46.0
 Werkzeug==0.15.5
-wheel==0.33.4
+wheel==0.38.1
 wincertstore==0.2
 wrapt==1.11.2
